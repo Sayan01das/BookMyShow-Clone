@@ -1,0 +1,231 @@
+body{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.first-options{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    background: rgb(34, 37, 57);
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.last-options {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    background: rgb(34, 37, 57);
+    overflow-x: auto;
+    white-space: nowrap;
+
+}
+.logo-main{
+    width: 100%;
+    height: 64px;
+    background: rgb(51, 53, 69);
+    padding: 0px;
+    box-shadow: none;
+}
+.a-tag a{
+    font-size: 14px;
+    cursor: pointer;
+    padding: 0px 10px;
+    position: relative;
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(204, 204, 204);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    margin-left: 4em;
+}
+.image1{
+    padding: 0px;
+    width: 12%;
+    margin-left: 10em;
+}
+.search-box{
+    width: 60%;
+    margin-left:11em;
+    margin-top: -38px;
+}
+.container{
+    position: relative;
+    top: -35px;
+    left: 70em;
+
+}
+.dropdown{
+    margin-top: -35px;
+    margin-left: 65em;      
+}
+.slide-show{
+    background-color:rgb(46, 50, 82) ;
+    display: flex;
+    justify-content: center;
+}
+.rec-movies{
+    margin-top: 2em;
+    font-size: 35px;
+    margin-left: 2em;
+}
+.rec-movies h5{
+    font-size: 30px;
+}
+.rec-movies img{
+    height: 422px;
+    width: 237px;
+    border-radius: 12px;
+    display: inline-block;
+    margin: 20px 35px;
+
+} 
+.rec-movies-name p{
+    display: inline-block;
+    margin: 0px 125px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.stream img{
+    margin-left: 2.5em;
+    margin-top: 5em;
+}
+.slide-show-two img{
+    margin-top: 2em;
+    margin-left: 6em;
+    border-radius: 3em;
+    width: 240px;
+    display: inline-block;
+    margin: 1.em;   
+}
+.slide-show-two h5{
+    font-size: 30px;
+    margin-top: 2em;
+    margin-left: 3em;
+}
+.premiers{
+    background-color: rgb(43, 49, 72);
+    margin-top: 3em;
+    color: white;    
+}
+.premiers h5{
+    margin-left: 3em;
+}
+.premier-logo{
+    margin-top: 4em;
+    margin-bottom: 3em;
+    margin-left: 3em;
+    width: 350px;
+}
+.premier-slide img{
+    width: 250px;
+    display: inline-block;
+    margin: 1.2em;
+    border-radius: 1em;
+}
+.premier-slide{
+    margin-left: 2em;
+}
+.premier-captions{
+    display: flex;
+    justify-content:space-around;
+    margin-right: 10em;
+}
+footer{
+    background-color: rgb(49, 48, 53);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 100px;
+    margin-top: 2em;
+} 
+.foot-logo img{
+    width: 30px;
+    margin-top: -8em;
+    margin-left: 5em;
+}
+.foot-logo-content{
+    margin-left: 8em;
+    margin-top: -5em;
+    font-size: 17px;
+}
+.extra{
+    margin-left: 8em;
+    margin-top: -2.4em; 
+    font-size: 17px;
+}
+.button{
+    margin-top: -3em;
+    margin-left: 74em;
+}
+.footer-services{
+    background-color: rgb(64, 64, 67);
+    margin-left: -6em;
+    margin-right: -5em;
+
+}
+.footer-images img{
+    width: 60px;  
+}
+.footer-images{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 288px;
+    padding-right: 297px;
+    margin-top: 2em;
+    margin-left: -6em;
+    margin-right: 1em;
+    padding-bottom: 12px;
+    padding-top: 13px;
+}
+.footer-images-caption h5{
+    font-size: 16px;
+    display: inline;
+    margin: 8em;
+}
+.logo-foot img{
+    width: 200px;
+    margin-top: 5em;
+    margin-left: -4em;
+    cursor: pointer;
+}
+.logo-foot{
+    display: flex;
+    justify-content: center;
+}
+.social img{
+    width:50px;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4em;
+    padding-left: 15em;
+    padding-right: 15em;
+}
+.rec-movies img:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+    transition: .6s;
+}
+.footer-images img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: .6s;
+}
+.premier-slide img:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+    transition: .6s;
+}
+.slide-show-two img:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+    transition: .6s;
+}
